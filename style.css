@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300&family=Outfit:wght@300;400;700&family=Playfair+Display&family=Poppins&family=Roboto&display=swap');
+
+/* =Core
+-------------------------------------------------------------- */
+:root {
+    --white: #FFFFFF;
+    --black: #000;
+    --light-black: #424241;
+    --stone-grey: #707070;
+    --light-grey: #D9D9D9;
+    --grey: #F4F4F4;
+    --dark-gray: #BFBFBF;
+    --dark-green: #0F4431;
+    --light-green: #506E65;
+    --gras-green: #5D9B7C;
+}
+
+/* =Typography
+-------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: var(--dark-green);
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 1.875rem;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.5625rem;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 3.125rem;
+    line-height: 1.34;
+    letter-spacing: 2.5px;
+    color: var(--dark-green);
+}
+
+
+/* =Header
+-------------------------------------------------------------- */
+.navbar {
+    padding-left: 8.75rem;
+    padding-right: 8.75rem;
+    padding-top: 2.25rem;
+    padding-bottom: 1.1rem;
+    background: var(--white);
+}
+
+.nav-link {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal normal normal;
+    font-size: 0.9375rem;
+    line-height: 1.26;
+    letter-spacing: 0px;
+    color: var(--black) !important;
+}
+
+.me-3 {
+    background-color: var(--white);
+}
+
+/* =hero
+---------------------------------------------------------------- */
+
+.grey-color {
+    background: var(--dark-gray);
+    padding-top: 40%;
+    width: 100%;
+    position: relative;
+}
+
+/* =heroContent 
+-----------------------------------------------------------------*/
+
+.first-container {
+    background: var(--white);
+    position: relative;
+    top: -3.12rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.main-p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal normal normal;
+    font-size: 1.0625rem;
+    line-height: 1.236;
+    letter-spacing: 0.85px;
+    color: var(--dark-green);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3.12rem;
+}
+
+.grey-color-small {
+    background: var(--dark-gray);
+    width: 100%;
+    position: relative;
+    padding-top: 85%;
+    /* 1:1 Aspect Ratio */
+}
+
+
+/* =cta (call to action) 
+------------------------------------------------------------------*/
+.cta-container {
+    background: var(--light-grey);
+    margin-left: 2.31rem;
+    margin-right: 2.31rem;
+    text-align: center;
+}
+
+.btn-green {
+    background: var(--light-green);
+    border-radius: 2.12rem;
+    padding: 0.5rem 3.12rem;
+}
+
+.btn {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal normal bold;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: var(--white);
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* =Footer
+-------------------------------------------------------------- */
+.background-green {
+    background: var(--dark-green);
+    color: var(--white);
+    padding: 4.37rem;
+}
+
+
+.btn-ghost {
+    background: var(--light-green);
+    border-radius: 2.12rem;
+    padding: 0.65rem 0.85rem;
+    margin-right: 1.25rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.big-p {
+
+    font-family: 'Playfair Display', serif;
+    font-weight: normal normal bold;
+    font-size: 0.95rem;
+    line-height: 1;
+    letter-spacing: 0px;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0.15rem;
+    margin-top: 3.75rem;
+}
+
+.small-p {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal normal normal;
+    font-size: 0.6875rem;
+    line-height: 1.36;
+    text-align: left;
+    letter-spacing: 0px;
+    color: var(--white);
+}
+
+.bold-p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal normal bold;
+    font-size: 0.6875rem;
+    line-height: 1.36;
+    text-align: right;
+    letter-spacing: 0px;
+    color: var(--white);
+}
+
+footer p {
+    font-size: 0.6875rem;
+}
+
+.normal-p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal normal bold;
+    font-size: 0.6875rem;
+    line-height: 1.36;
+    text-align: right;
+    letter-spacing: 0px;
+    color: var(--white);
+}
+
+.normal-left {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal normal bold;
+    font-size: 0.6875rem;
+    line-height: 1.36;
+    text-align: left;
+    letter-spacing: 0px;
+    color: var(--white);
+}
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 5rem;
+}
+
+.navbar {
+    transition: 300ms ease-in-out all;
+}
+
+.navbar-scrolled {
+    padding-top: 1.25rem;
+    padding-bottom: 1.1rem;
+}
+
+
+/* =Computers
+-------------------------------------------------------------- */
+@media (max-width:1440px) {}
+
+@media (max-width:1366px) {}
+
+@media (max-width:1280px) {}
+
+@media (max-width:768px) {
+    .navbar {
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+    }
+
+    .grey-color {
+        padding-top: 120%;
+    }
+
+    .second-column {
+        padding-right: 0;
+    }
+
+    .bold-p {
+        text-align: left;
+    }
+}
+
+/* =Typical Tablets: Landscape
+-------------------------------------------------------------- */
+@media (min-device-width : 1024px) and (max-device-width : 1366px) {}
+
+/* =Typical Tablets: Portrait
+-------------------------------------------------------------- */
+@media (min-device-width : 768px) and (max-device-width : 890px) {
+
+    .cta-container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+/* =Typical phone: Portrait
+-------------------------------------------------------------- */
+@media (min-device-width : 320px) and (max-device-width : 414px) {
+    .cta-container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+/*= member page
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.afterMainH {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-transform: none;
+    letter-spacing: 0.32px;
+    color: var(--black);
+}
+
+.one,
+.two,
+.three {
+    text-align: left;
+    padding-right: 80px;
+    margin-bottom: 100px;
+}
+
+.nameColumn {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal bold;
+    font-style: italic;
+    font-size: 1.9rem;
+    line-height: 1.3;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: var(--dark-green);
+    border-top: 2px solid var(--dark-gray);
+    padding-top: 20px;
+}
+
+.afterNameColumn {
+
+    font-family: 'Outfit', sans-serif;
+    font-weight: medium;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--light-black);
+}
+
+.list-unstyled,
+.afterGreenText {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.afterGreenText {
+    border-bottom: 2px solid var(--dark-gray);
+    padding-bottom: 40px;
+}
+
+.greenText {
+    color: var(--gras-green);
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 1.37rem;
+    line-height: 1.1;
+    letter-spacing: 0px;
+}
+
+/*=form
+-------------------------------------------------------------*/
+
+.backgroundGrey {
+    background: var(--grey);
+}
+
+.name {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.9rem;
+    line-height: 1.3;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: var(--dark-green);
+    padding-top: 50px;
+    text-transform: none;
+}
+
+.form-label {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 1.5px;
+    color: var(--gras-green);
+}
+
+.firstName {
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    font-weight: medium;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    color: var(--gras-green);
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control,
+textarea {
+    border: none;
+    border-radius: 0;
+}
+
+.btn-green-gras {
+    background: var(--gras-green);
+    border-radius: 34px;
+    opacity: 1;
+    padding: 0.65rem 5rem;
+    margin-right: 1.25rem;
+    text-align: left;
+    color: var(--white);
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+/*=input radio
+------------------------------------------------*/
+
+.pointCircle {
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    color: var(--black);
+    opacity: 1;
+    vertical-align: super;
+}
+
+input[type="radio" i]:checked {
+    background-color: var(--gras-green);
+    height: 30px;
+    width: 30px;
+    appearance: none;
+    border: 5px solid var(--white);
+    border-radius: 50%;
+}
+
+input[type="radio" i]:not(:checked) {
+    background-color: var(--white);
+    height: 30px;
+    width: 30px;
+    appearance: none;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+}
+
+/*= member2 page
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.main-gratis {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal normal normal;
+    font-size: 1.0625rem;
+    line-height: 1.236;
+    letter-spacing: 0.85px;
+    color: var(--dark-green);
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 3.12rem;
+}
+
+.main-Bliv {
+    text-align: left;
+    font-size: 3.1rem;
+    line-height: 1;
+    opacity: 1;
+    text-transform: none;
+}
+
+.eight,
+.four {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 90px;
+}
+
+.four {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+.lineUp {
+    border-top: 5px solid var(--dark-green);
+    padding-top: 30px;
+}
+
+.lineDown {
+    border-bottom: 5px solid var(--dark-green);
+    padding-bottom: 30px;
+}
+
+.afterNameColumn2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--light-black);
+}
+
+strong {
+    color: var(--gras-green);
+}
+
+.point {
+    padding-left: 20px;
+}
+
+.w-100 {
+    margin-bottom: 30px;
+}
+
+/*=accordion
+------------------------------------------------*/
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button.collapsed,
+.accordion-button:not(.collapsed) {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    letter-spacing: 0.44px;
+    text-transform: none;
+    color: var(--light-black);
+    background-color: var(--white) !important;
+    box-shadow: none;
+    padding-left: 0px;
+}
+
+.accordion-item {
+    border: none;
+    border-top: 1px solid var(--stone-grey);
+    border-bottom: 1px solid var(--stone-grey);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.accordion-item:first-of-type .accordion-button,
+.accordion-item:first-of-type,
+.accordion-item:last-of-type .accordion-button,
+.accordion-item:last-of-type {
+    border-radius: 0%;
+}
+
+.accordion-button::after {
+    /* plus */
+    background-image: url("./assets/plus.svg");
+}
+
+.accordion-button:not(.collapsed)::after {
+    /* minus */
+    background-image: url("./assets/minus.svg");
+}
+
+.accordion-button {
+    text-align: left;
+    margin-left: 0px;
+}
+
+.accordion-body {
+    padding-left: 0px;
+}
